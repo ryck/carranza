@@ -442,7 +442,7 @@
 		.fa.featured
 		{
 			font-size: 5em;
-			color: #EA8A95;
+			color: #9A9898;
 			display: block;
 			margin: 0 0 0.25em 0;
 			cursor: default;
@@ -1041,7 +1041,7 @@
 	text-align: left;
 }
 .skills-wrapper li {
-	padding-bottom: 0.25em;
+	padding-bottom: 0.5em;
 }
 .skills-wrapper li:last-child {
 	padding-bottom: 0;
@@ -1054,6 +1054,9 @@
 }
 .about-wrapper p:last-child{
 	margin-bottom: 0;
+}
+#about .fa-info-circle{
+	font-size: 8em;
 }
 
 @-webkit-keyframes fadeInDown {
