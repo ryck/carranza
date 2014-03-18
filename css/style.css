@@ -1125,3 +1125,24 @@
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+
+.about-links {
+	text-align: right;
+}
+.about-links li {
+	display: inline-block;;
+	margin-right: .5em;
+}
+.about-links li:last-child {
+	margin-right: 0;
+}
+
+.contact-info {
+	text-align: left;
+}
+
+.contact-info .fa{
+	width: 30px;
+	text-align: center;
+	display: inline-block;
+}

@@ -30,9 +30,9 @@ jQuery(function() {
 		if (jQuery.browser.msie && jQuery.browser.version <= 9)
 			jQuery('form').n33_formerize();
 
-		jQuery('form .form-button-submit').click(function(e) { e.preventDefault(); jQuery(this).closest('form').submit(); });
+		// jQuery('form .form-button-submit').click(function(e) { e.preventDefault(); jQuery(this).closest('form').submit(); });
 		jQuery('form .form-button-reset').click(function(e) { e.preventDefault(); jQuery(this).closest('form')[0].reset(); });
-	
+
 	// Links
 		jQuery('a').click(function(e) {
 			var t = jQuery(this), h = t.attr('href'), article;
@@ -44,5 +44,54 @@ jQuery(function() {
 				_bh.animate({ scrollTop: pos }, 'slow', 'swing');
 			}
 		});
+
+
+  $("#submit").click(function() {
+    // validate and process form here
+
+    var errorflag = false;
+    var name = $("input#name");
+    if (name.val() == "") {
+      name.focus();
+      errorflag = true;
+    }
+    var email = $("input#email");
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    if (email.val() == "" || !re.test(email.val())) {
+      email.focus();
+      errorflag = true;
+    }
+    var subject = $("input#subject");
+    if (subject.val() == "") {
+      subject.focus();
+      errorflag = true;
+    }
+    var message = $("input#message");
+    if (message.val() == "") {
+      message.focus();
+      errorflag = true;
+    }
+
+    if(errorflag) {
+      return false;
+    }
+
+
+    var dataString = 'name='+ name.val() + '&email=' + email.val() + '&subject=' + subject.val() + '&message=' + message.val();
+    // alert (dataString);return false;
+    $.ajax({
+      type: "POST",
+      url: "process.php",
+      data: dataString,
+      success: function() {
+     	console.log('hola');
+
+      }
+    });
+    return false;
+
+
+  });
+
 
 });
