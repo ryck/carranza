@@ -1037,3 +1037,12 @@
 .awards-wrapper {
 	text-align: left;
 }
+.skills-wrapper {
+	text-align: left;
+}
+.skills-wrapper li {
+	padding-bottom: 0.25em;
+}
+.skills-wrapper li:last-child {
+	padding-bottom: 0;
+}
