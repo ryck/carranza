@@ -1046,3 +1046,9 @@
 .skills-wrapper li:last-child {
 	padding-bottom: 0;
 }
+.about-wrapper {
+	text-align: left;
+}
+.about-wrapper p{
+	margin-bottom: 0.5em;
+}
