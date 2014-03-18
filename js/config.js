@@ -78,13 +78,13 @@ jQuery(function() {
 
 
     var dataString = 'name='+ name.val() + '&email=' + email.val() + '&subject=' + subject.val() + '&message=' + message.val();
-    // alert (dataString);return false;
+
     $.ajax({
       type: "POST",
       url: "process.php",
       data: dataString,
       success: function() {
-     	console.log('hola');
+     	// console.log('hola');
 
       }
     });

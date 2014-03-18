@@ -9,10 +9,10 @@ if( isset($_POST) ){
     //form data
     $name = $_POST['name'];
     $email = $_POST['email'];
-    $message = nl2br($_POST['people']);
-    $captcha = $_POST['captcha'];
+    $message = nl2br($_POST['message']);
+    $subject = $_POST['subject'];
 
-    if($captcha != 5) return;
+    if($email == '') return;
 
     //send email if all is ok
     // $headers = "From: {$email}" . "\r\n";
@@ -21,12 +21,13 @@ if( isset($_POST) ){
     $headers .= "Reply-To: $name <$email>". "\r\n";
 
     $emailbody = "<p><strong>Name:</strong> {$name} </p>
-                  <p><strong>Email Address:</strong> {$email} </p>
-                  <p><strong>People:</strong><br> {$message} </p>
+                  <p><strong>Subject:</strong> {$subject} </p>
+                  <p><strong>Email:</strong> {$email} </p>
+                  <p><strong>Message:</strong><br> {$message} </p>
                   <p>This message was sent from the IP Address: {$ipaddress} on {$date} at {$time}</p>";
     // make sure each line doesn't exceed 70 characters
     $emailbody = wordwrap($emailbody, 70);
-    mail("rsvp@lolixrick.com", "RSVP", $emailbody, $headers);
+    mail("contact@antoniocarranza.com", "Web Contact Form", $emailbody, $headers);
     // print($emailbody);
     // print($headers);
 
