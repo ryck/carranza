@@ -1052,3 +1052,5 @@
 .about-wrapper p{
 	margin-bottom: 0.5em;
 }
+.about-wrapper p:last-child{
+	margin-bottom: 0;
