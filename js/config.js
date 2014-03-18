@@ -45,6 +45,8 @@ jQuery(function() {
 			}
 		});
 
+	  jQuery('.wrapper').css('min-height',$(window).height()+'px');
+
 
   $("#submit").click(function() {
     // validate and process form here
