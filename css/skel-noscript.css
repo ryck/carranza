@@ -25,9 +25,9 @@
 	}
 
 	/* Modifiers */
-	
+
 		.container.small {
-			width: 900px;
+			width: 100%;
 		}
 
 		.container.big {
