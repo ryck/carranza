@@ -940,6 +940,11 @@
 			text-decoration: none;
 			outline: 0;
 		}
+			#nav a.active
+			{
+				color: #3B95C6;
+
+			}
 
 			#nav a:hover
 			{
