@@ -447,6 +447,14 @@
 			margin: 0 0 0.25em 0;
 			cursor: default;
 		}
+		article.active .fa.featured {
+			-webkit-animation-duration: 1s;
+			animation-duration: 1s;
+			-webkit-animation-fill-mode: both;
+			animation-fill-mode: both;
+			-webkit-animation-name: fadeIn;
+			animation-name: fadeIn;
+		}
 
 		.fa:before
 		{
@@ -1150,4 +1158,21 @@
 	width: 30px;
 	text-align: center;
 	display: inline-block;
+}
+
+article.active #logo {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+article.active #intro {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
 }

@@ -102,22 +102,23 @@ jQuery(function() {
     .waypoint(function(direction) {
       var $links = $('a[href="#' + this.id + '"]');
       $links.toggleClass('active', direction === 'down');
-      $('#logo').toggleClass('animated fadeIn', direction === 'down');
-      $('#intro').toggleClass('animated fadeInDown', direction === 'down');
+      $(this).toggleClass('active', direction === 'down');
     }, {
       offset: '100%'
     })
     .waypoint(function(direction) {
       var $links = $('a[href="#' + this.id + '"]');
       $links.toggleClass('active', direction === 'up');
-      $('#logo').toggleClass('animated fadeIn', direction === 'up');
-      $('#intro').toggleClass('animated fadeInDown', direction === 'up');
+      $(this).toggleClass('active', direction === 'up');
     }, {
       offset: function() {
         return -$(this).height();
       }
     });
 
+    $("img").lazyload({
+        effect : "fadeIn"
+    });
 
 
 });
