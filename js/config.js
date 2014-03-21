@@ -117,7 +117,8 @@ jQuery(function() {
     });
 
     $("img").lazyload({
-        effect : "fadeIn"
+        effect : "fadeIn",
+        threshold : 100
     });
 
 
