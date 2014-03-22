@@ -10,7 +10,7 @@
 		"inputAbbreviatedPath": "\/a-200.png",
 		"outputAbbreviatedPath": "\/a-200.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/a-200c.png": {
 		"fileType": 32768,
@@ -20,7 +20,7 @@
 		"inputAbbreviatedPath": "\/a-200c.png",
 		"outputAbbreviatedPath": "\/a-200c.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/a-400.png": {
 		"fileType": 32768,
@@ -30,7 +30,7 @@
 		"inputAbbreviatedPath": "\/a-400.png",
 		"outputAbbreviatedPath": "\/a-400.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/a-400c.png": {
 		"fileType": 32768,
@@ -40,7 +40,7 @@
 		"inputAbbreviatedPath": "\/a-400c.png",
 		"outputAbbreviatedPath": "\/a-400c.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-precomposed.png": {
 		"fileType": 32768,
@@ -50,7 +50,7 @@
 		"inputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon.png": {
 		"fileType": 32768,
@@ -60,7 +60,7 @@
 		"inputAbbreviatedPath": "\/apple-touch-icon.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/carranza.sketch\/QuickLook\/Preview.png": {
 		"fileType": 32768,
@@ -164,7 +164,7 @@
 		"inputAbbreviatedPath": "\/favicon-160x160.png",
 		"outputAbbreviatedPath": "\/favicon-160x160.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/favicon-16x16.png": {
 		"fileType": 32768,
@@ -174,7 +174,7 @@
 		"inputAbbreviatedPath": "\/favicon-16x16.png",
 		"outputAbbreviatedPath": "\/favicon-16x16.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/favicon-196x196.png": {
 		"fileType": 32768,
@@ -184,7 +184,7 @@
 		"inputAbbreviatedPath": "\/favicon-196x196.png",
 		"outputAbbreviatedPath": "\/favicon-196x196.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/favicon-32x32.png": {
 		"fileType": 32768,
@@ -194,7 +194,7 @@
 		"inputAbbreviatedPath": "\/favicon-32x32.png",
 		"outputAbbreviatedPath": "\/favicon-32x32.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/favicon-96x96.png": {
 		"fileType": 32768,
@@ -204,7 +204,7 @@
 		"inputAbbreviatedPath": "\/favicon-96x96.png",
 		"outputAbbreviatedPath": "\/favicon-96x96.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/a.png": {
 		"fileType": 32768,
@@ -994,13 +994,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
-	"\/js\/script.min.js": {
+	"\/js\/min\/jquery.min-ck.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/script.min.js",
-		"outputAbbreviatedPath": "\/js\/script.js",
-		"outputPathIsSetByUser": 1,
+		"inputAbbreviatedPath": "\/js\/min\/jquery.min-ck.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/jquery.min-ck-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/script.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/script.js",
+		"outputAbbreviatedPath": "\/js\/min\/script-ck.js",
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
@@ -1022,7 +1032,7 @@
 		"inputAbbreviatedPath": "\/mstile-144x144.png",
 		"outputAbbreviatedPath": "\/mstile-144x144.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/mstile-150x150.png": {
 		"fileType": 32768,
@@ -1032,7 +1042,7 @@
 		"inputAbbreviatedPath": "\/mstile-150x150.png",
 		"outputAbbreviatedPath": "\/mstile-150x150.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/mstile-310x150.png": {
 		"fileType": 32768,
@@ -1042,7 +1052,7 @@
 		"inputAbbreviatedPath": "\/mstile-310x150.png",
 		"outputAbbreviatedPath": "\/mstile-310x150.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/mstile-310x310.png": {
 		"fileType": 32768,
@@ -1052,7 +1062,7 @@
 		"inputAbbreviatedPath": "\/mstile-310x310.png",
 		"outputAbbreviatedPath": "\/mstile-310x310.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/mstile-70x70.png": {
 		"fileType": 32768,
@@ -1062,7 +1072,7 @@
 		"inputAbbreviatedPath": "\/mstile-70x70.png",
 		"outputAbbreviatedPath": "\/mstile-70x70.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/process.php": {
 		"fileType": 8192,
@@ -1197,32 +1207,6 @@
 	],
 "lastSavedByUser": "Ricardo González",
 "manualImportLinks": {
-	"\/js\/script.min.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/config.js",
-			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/skel.js",
-			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/jquery.min.js",
-			"position": 2,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/js\/main.js",
-			"position": 3,
-			"type": 0
-			}
-		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
