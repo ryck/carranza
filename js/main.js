@@ -99,7 +99,7 @@ jQuery(function() {
 
     $("img").lazyload({
         effect : "fadeIn",
-        threshold : 100
+        threshold : 200
     });
 
 
