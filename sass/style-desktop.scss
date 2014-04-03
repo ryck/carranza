@@ -79,12 +79,13 @@
 
   .box
   {
-    padding: 1em 1em 2em 1em;
+    padding: 1em 1em 1em 1em;
+    min-height: 315px;
   }
 
     .box h3
     {
-      margin-bottom: 0.25em;
+      margin-bottom: 0;
     }
 
     .box .image-centered
