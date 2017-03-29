@@ -17,3 +17,4 @@ Icon
 .codekit-cache
 .sass-cache
 *.css.map
+node_modules
