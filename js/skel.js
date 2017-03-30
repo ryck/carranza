@@ -1,4 +1,5 @@
 /* skelJS v0.4.8 | (c) n33 | skeljs.org | MIT licensed */
+//requires: config.js
 var skel = function () {
     var a = {
         config: {
